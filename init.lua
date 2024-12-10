@@ -7,4 +7,4 @@ vim.g.maplocalleader = ' '
 
 -- import modules
 require('santu.core.options')
-
+require('santu.core.keymaps')
