@@ -18,7 +18,7 @@ vim.o.sidescrolloff = 8        -- Minimal screen columns either side of cursor i
 -- Search and Case Sensitivity
 vim.o.ignorecase = true        -- Case-insensitive searching UNLESS \C or capital in search
 vim.o.smartcase = true         -- Smart case
-vim.o.hlsearch = false         -- Set highlight on search
+vim.o.hlsearch = true          -- Set highlight on search
 
 -- Indentation and Tabs
 vim.o.autoindent = true        -- Copy indent from current line when starting new one
