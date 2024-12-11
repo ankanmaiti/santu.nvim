@@ -8,6 +8,7 @@ vim.g.maplocalleader = ' '
 -- import modules
 require('santu.core.options')
 require('santu.core.keymaps')
+require('santu.core.autocmds')
 
 
 -- [[ Install `lazy.nvim` plugin manager ]]
