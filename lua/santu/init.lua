@@ -38,6 +38,7 @@ require('lazy').setup({
   -- Explicitly add your own plugins, configuration, etc from `lua/santu/plugins/*.lua`
   require('santu.plugins.explorer'),
   require('santu.plugins.colorscheme'),
+  require('santu.plugins.lsp'),
   --
   --
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/santu/plugins/*.lua`
