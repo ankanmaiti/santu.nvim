@@ -42,6 +42,7 @@ require('lazy').setup {
   require "santu.plugins.completion",
   require "santu.plugins.treesitter",
   require "santu.plugins.todos",
+  require "santu.plugins.trouble",
   --
   --
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/santu/plugins/*.lua`
