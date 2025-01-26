@@ -6,8 +6,8 @@ vim.o.wrap = false             -- Display lines as one long line
 vim.o.linebreak = true         -- Companion to wrap, don't split words
 vim.o.numberwidth = 4          -- Set number column width
 vim.wo.signcolumn = 'yes'      -- Keep signcolumn on by default
-vim.opt.termguicolors = true   -- Enable highlight groups
-vim.opt.laststatus = 0         -- Disable the statusline
+vim.o.termguicolors = true     -- Enable highlight groups
+vim.o.laststatus = 0           -- Disable the statusline
 
 -- Splitting and Window Behavior
 vim.o.splitbelow = true        -- Force horizontal splits to go below current window
