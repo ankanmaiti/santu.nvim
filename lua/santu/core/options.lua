@@ -49,7 +49,7 @@ vim.o.undofile = true          -- Save undo history
 -- Interface and Behavior
 vim.o.showmode = false         -- Don't show mode in command line
 vim.o.cmdheight = 1            -- Command line height
-vim.o.showtabline = 2          -- Always show tabs
+vim.o.showtabline = 0          -- Doesn't show tabs
 vim.o.whichwrap = 'bs<>[]hl'   -- Allowed horizontal keys to travel to prev/next line
 vim.o.conceallevel = 0         -- Show `` in markdown files
 
