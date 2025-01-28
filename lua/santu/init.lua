@@ -35,21 +35,8 @@ vim.opt.rtp:prepend(lazypath)
 -- NOTE: Here is where you install your plugins.
 require('lazy').setup {
   --
-  -- Explicitly add your own plugins, configuration, etc from `lua/santu/plugins/*.lua`
-  require "santu.plugins.explorer",
-  require "santu.plugins.colorscheme",
-  require "santu.plugins.lsp",
-  require "santu.plugins.completion",
-  require "santu.plugins.treesitter",
-  require "santu.plugins.todos",
-  require "santu.plugins.trouble",
-  require "santu.plugins.tmux",
-  --
-  --
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/santu/plugins/*.lua`
   --    This is the easiest way to modularize your config.
-  --
-  --  Uncomment the following line and add your plugins to `lua/santu/plugins/*.lua` to get going.
-  -- { import = 'santu.plugins' },
+  { import = 'santu.plugins' },
   --
 }
