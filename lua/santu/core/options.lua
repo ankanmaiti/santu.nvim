@@ -32,7 +32,7 @@ vim.o.backspace = 'indent,eol,start'  -- Allow backspace on indent, end of line,
 -- Editing and Completion
 vim.o.completeopt = 'menuone,noselect'  -- Better completion experience
 vim.o.pumheight = 10           -- Pop up menu height
-vim.o.timeoutlen = 500         -- Time to wait for a mapped sequence to complete
+vim.o.timeoutlen = 1000         -- Time to wait for a mapped sequence to complete
 vim.o.updatetime = 250         -- Decrease update time
 vim.opt.shortmess:append 'c'   -- Reduce completion menu messages
 vim.opt.iskeyword:append '-'   -- Recognize hyphenated words in searches
